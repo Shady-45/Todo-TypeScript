@@ -1,0 +1,74 @@
+input{
+    display: flex;
+    width: 90%;
+    position: relative;
+    align-items: center;
+}
+.input-box{
+    width: 100%;
+    border-radius: 50px;
+    padding: 20px 30px;
+    font-size: 25px;
+    border: none;
+    transition: 0.2s;
+    box-shadow: inset 0 0 5px white;
+}
+.input-button{
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    margin: 12px;
+    border-radius: 50px;
+    border: none;
+    padding-left: 0rem;
+    left: 61%;
+    top: 21.5%;
+    font-size: 22px;
+    background-color: black;
+    color: whitesmoke;
+    transition: 0.2s all;
+}
+.input-button:active{
+    transform: scale(0.8);
+    box-shadow: 0 0 5px black;
+}
+.todos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    flex-wrap: wrap;
+}
+.todo-single{
+    display: flex;
+    width: 97.5%;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 15px;
+    background: white;
+    color: black;
+    padding: -5px;
+    padding-left: 43px;
+    gap: 89px;
+    text-decoration: none;
+}
+.todo-single-text{
+    flex: 1;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+    height: 45px;
+    margin-top: 53px;
+}
+.todo-single-text:focus{
+    outline: none;
+}
+.icon{
+    margin-left: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.todo-single--text{
+    height: 34px;
+    margin-top: 59px;
+    border: 4px solid black;
+}
